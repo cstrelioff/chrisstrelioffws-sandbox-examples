@@ -31,7 +31,7 @@ Start Python (or ipython if you like) in the directory containing the
 Then import the file and try out a new example by
 
 * creating new data
-* specifyinf a prior
+* specifying a prior
 * creating a posterior
 * plotting the results of inference
 
@@ -45,7 +45,6 @@ Then import the file and try out a new example by
     >>> prior = prior(np.arange(0.0, 1.01, 0.01))
     >>> post = posterior(data, prior)
     >>> post.plot()
-    >>> exit()
 
 That's it!
 
