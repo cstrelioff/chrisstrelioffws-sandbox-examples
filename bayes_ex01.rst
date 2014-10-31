@@ -4,14 +4,12 @@ bayes_ex01.py
 A script that replicates all examples in my blog post on inferring
 probabilities:
 
-You can
-
 Run all the examples
 --------------------
 
 .. code:: bash
 
-    $ python baye_ex01.py
+    $ python bayes_ex01.py
 
 Or, 
 
@@ -24,13 +22,18 @@ Use the class defined in the file
 ---------------------------------
 
 Start Python (or ipython if you like) in the directory containing the
-:code:`baeys_ex01.py` file:
+:code:`bayes_ex01.py` file.
 
-.. node:: bash
+.. code:: bash
 
     $ python
 
-Try out a new example:
+Then import the file and try out a new example by
+
+* creating new data
+* specifyinf a prior
+* creating a posterior
+* plotting the results of inference
 
 .. code:: python
 
@@ -38,9 +41,6 @@ Try out a new example:
     [GCC 4.8.2] on linux2
     Type "help", "copyright", "credits" or "license" for more information.
     >>> from bayes_ex01 import *
-    >>> dir()
-    ['__builtins__', '__doc__', '__name__', '__package__', 'division',
-    'likelihood', 'np', 'plt', 'posterior', 'print_function', 'prior']
     >>> data = np.random.choice([0,1], 500, p=[0.01, 0.99])
     >>> prior = prior(np.arange(0.0, 1.01, 0.01))
     >>> post = posterior(data, prior)
