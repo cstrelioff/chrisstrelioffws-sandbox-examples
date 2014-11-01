@@ -18,7 +18,7 @@ Or,
     $ chmod u+x bayes_ex01.py
     $ ./bayes_ex01.py
 
-Use the class defined in the file
+Use the classes defined in the file
 ---------------------------------
 
 Start Python (or ipython if you like) in the directory containing the
