@@ -2,7 +2,7 @@ bayes_ex01.py
 =============
 
 A script that replicates all examples in my blog post on inferring
-probabilities:
+probabilities-- see `bayes post`_ for more information.
 
 Run all the examples
 --------------------
@@ -47,4 +47,6 @@ Then import the file and try out a new example by
     >>> post.plot()
 
 That's it!
+
+.. _bayes post: http://chrisstrelioff.ws/sandbox/2014/10/24/inferring_probabilities_a_second_example_of_bayesian_calculations.html
 
