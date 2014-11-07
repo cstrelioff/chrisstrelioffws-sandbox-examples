@@ -40,10 +40,11 @@ Then import the file and try out a new example by
     Python 2.7.6 (default, Mar 22 2014, 22:59:56) 
     [GCC 4.8.2] on linux2
     Type "help", "copyright", "credits" or "license" for more information.
-    >>> from bayes_ex01 import *
+    >>> import numpy as np
+    >>> from bayes_ex01 import prior, posterior
     >>> data = np.random.choice([0,1], 500, p=[0.01, 0.99])
-    >>> prior = prior(np.arange(0.0, 1.01, 0.01))
-    >>> post = posterior(data, prior)
+    >>> pri = prior(np.arange(0.0, 1.01, 0.01))
+    >>> post = posterior(data, pri)
     >>> post.plot()
 
 That's it!
