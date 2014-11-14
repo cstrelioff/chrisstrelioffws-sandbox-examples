@@ -1,4 +1,4 @@
-bayes_ex01.py
+ex001_bayes.py
 =============
 
 A script that replicates all examples in my blog post on inferring
@@ -9,14 +9,14 @@ Run all the examples
 
 .. code:: bash
 
-    $ python bayes_ex01.py
+    $ python ex001_bayes.py
 
 Or, 
 
 .. code:: bash
 
-    $ chmod u+x bayes_ex01.py
-    $ ./bayes_ex01.py
+    $ chmod u+x ex001_bayes.py
+    $ ./ex001_bayes.py
 
 Use the classes defined in the file
 ---------------------------------
@@ -41,7 +41,7 @@ Then import the file and try out a new example by
     [GCC 4.8.2] on linux2
     Type "help", "copyright", "credits" or "license" for more information.
     >>> import numpy as np
-    >>> from bayes_ex01 import prior, posterior
+    >>> from ex001_bayes import prior, posterior
     >>> data = np.random.choice([0,1], 500, p=[0.01, 0.99])
     >>> pri = prior(np.arange(0.0, 1.01, 0.01))
     >>> post = posterior(data, pri)
