@@ -22,7 +22,7 @@ Use the classes defined in the file
 ---------------------------------
 
 Start Python (or ipython if you like) in the directory containing the
-:code:`bayes_ex01.py` file.
+:code:`ex001_bayes.py` file.
 
 .. code:: bash
 
