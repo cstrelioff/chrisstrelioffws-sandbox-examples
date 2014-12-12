@@ -42,7 +42,7 @@ Then import the file and try out a new example by
     Type "help", "copyright", "credits" or "license" for more information.
     >>> import numpy as np
     >>> from ex003_bayes import prior, posterior
-    >>> data = np.random.choice([0,1], 500, p=[0.01, 0.99])
+    >>> data = np.random.choice([0,1], 500, p=[0.1, 0.9])
     >>> pri = prior(1,1)
     >>> post = posterior(data, pri)
     >>> post.plot()
