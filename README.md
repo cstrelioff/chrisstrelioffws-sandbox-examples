@@ -20,3 +20,7 @@ my blog: http://chrisstrelioff.ws/sandbox/
   Infer probabilities using a Beta prior.
 
 
+* ex004_socrata_api.py --
+  [usage](https://github.com/cstrelioff/chrisstrelioffws-sandbox-examples/blob/master/ex004_socrata_api.rst)
+
+  Use Python to query a Socrata API.
